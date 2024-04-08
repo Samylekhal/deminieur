@@ -10,14 +10,14 @@ public class fenetre extends JFrame{
         this.setSize(800, 600); // Définir la taille de la fenêtre
         this.setLocationRelativeTo(null); // Centrer la fenêtre sur l'écran
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Terminer le programme lorsque la fenêtre est fermée
-        this.setTitle("Des mineurs"); // Définir le titre de la fenêtre
+        this.setTitle("Demineure"); // Définir le titre de la fenêtre
 
         
          // Créer un panel pour contenir les boutons
          JPanel panel = new JPanel(new BorderLayout());
 
          // Créer un titre
-         JLabel titre = new JLabel("LE JEU DES MINEURS !",JLabel.CENTER);
+         JLabel titre = new JLabel("Bienvenue !",JLabel.CENTER);
 
          JPanel panelBouton = new JPanel();
 
