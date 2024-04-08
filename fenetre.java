@@ -21,6 +21,7 @@ public class fenetre extends JFrame{
 
          JPanel panelBouton = new JPanel();
 
+         
          // Créer les boutons
          JButton boutonFacile = new JButton("Facile");
          JButton boutonNormal = new JButton("Normal");
